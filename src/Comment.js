@@ -12,3 +12,6 @@ export default class Comment extends Component {
        }
 }
 
+// This is the child Component of BlogPost
+// commentText is called is called along with Comment Component
+// in the BlogPost component

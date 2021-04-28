@@ -21,10 +21,14 @@ export default class BlogPost extends Component {
 
         
         <Comment commentText={comments[0]} />
-        <Comment commentText={comments[0]} />
-        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[1]} />
+        <Comment commentText={comments[2]} />
        
       </div>
     );
   }
 }
+
+// is calling on Comment Component, which is a child Component.
+// child Comment Component will return a div with that respective
+// comment from the array {this.props.commentText}
